@@ -16,3 +16,4 @@ RUN pip3 install --no-cache-dir git+https://github.com/openai/baselines.git@mast
 COPY . /gfootball
 RUN cd /gfootball && pip3 install .
 WORKDIR '/gfootball'
+New Line, does it work?
